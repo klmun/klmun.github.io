@@ -1,0 +1,524 @@
+﻿@charset "utf-8";
+ .bgea {
+	background: #eaecee;
+}
+#slide-index {
+	height: 480px;
+	min-width: 1000px;
+	overflow: hidden;
+	position: relative;
+	width: auto;
+}
+#slide-index .slides {
+	height: 480px;
+	min-width: 1000px;
+	width: auto;
+}
+#slide-index .slide {
+	float: left;
+	height: 480x;
+	min-width: 1000px;
+	position: relative;
+}
+#slide-index .image {
+	position: absolute;
+	z-index: 1;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+#slide-index .image a {
+	width: 1020px;
+	margin: 0 auto;
+	display: block;
+}
+#slide-index .text,
+#slide-index .button {
+	position: absolute;
+	top: -500px;
+	z-index: 2;
+}
+#slide-index .button {
+	display: none;
+	width: 138px;
+}
+#slide-index .control {
+	bottom: 0;
+	cursor: pointer;
+	height: 25px;
+	position: absolute;
+	text-align: center;
+	width: 66px;
+	z-index: 40;
+	left: 50%;
+	margin-left: -494px;
+}
+#slide-index .control a {
+	display: inline-block;
+	height: 22px;
+	margin-right: 6px;
+	width: 22px;
+	float: left;
+}
+#slide-index .control a {
+	background: #d1e8f7;
+	width: 10px;
+	height: 10px;
+	margin: 6px;
+	display: inline-block;
+	overflow: hidden;
+	cursor: pointer;
+}
+#slide-index .control a.hov {
+	background: #FFF;
+	width: 10px;
+	height: 10px;
+	margin: 6px;
+	display: inline-block;
+	overflow: hidden;
+	cursor: pointer;
+}
+#slide-index .control a.active {
+	background: url(../images/Coray.png) 0px -690px no-repeat;
+	width: 22px;
+	height: 22px;
+	border: none;
+	margin: 0;
+}
+.autoMaxWidth {
+	height: 480px;
+	overflow: hidden;
+	position: relative;
+}
+#slide-index .xia {
+	position: absolute;
+	z-index: 11;
+	width: 100%;
+	margin-left: -489px;
+	left: 50%;
+	width: 980px;
+	bottom: 0px;
+}
+#slide-index .xia .w980 {} #slide-index .xia .dwo {
+	width: 250px;
+	height: 190px;
+	color: #298dda;
+}
+#slide-index .xia .dwo dl {
+	background: url(../images/Coray.png) no-repeat 12px -160px #FFF;
+	color: #298dda;
+	cursor: pointer;
+}
+#slide-index .xia .dwo dl.active {
+	background: url(../images/Coray.png) no-repeat 12px -240px #7cc23e;
+	color: #FFF;
+}
+#slide-index .xia .dwo a {
+	color: #FFF;
+	display: block;
+}
+#slide-index .xia .dow {
+	background: url(../images/Coray.png) no-repeat 12px 0px #298dda;
+	width: 250px;
+	height: 80px;
+	color: #FFF;
+	cursor: pointer;
+}
+#slide-index .xia .dow.active {
+	background: url(../images/Coray.png) no-repeat 12px -80px #7cc23e;
+}
+#slide-index .xia .dow a {
+	color: #FFF;
+	display: block;
+}
+#slide-index .xia .zai dl {
+	height: 60px;
+	padding: 20px 6px 0 70px;
+	cursor: pointer;
+}
+#slide-index .xia .zai dt {
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+#slide-index .xia .zai dd {
+	width: 100%;
+	text-align: left;
+	float: left;
+}
+#slide-index .xia .root {
+	background: url(../images/Coray.png) no-repeat 12px 0 #298dda;
+	width: 300px;
+	height: 80px;
+	color: #298dda;
+}
+#slide-index .xia .root strong {} #slide-index .xia .root dl {} #slide-index .xia .root.active {
+	background: url(../images/Coray.png) no-repeat 12px -80px #7cc23e;
+}
+#slide-index .xia .root a {
+	color: #FFF;
+}
+#slide-index .xia .pcr {
+	width: 50px;
+	height: 80px;
+	background: url(../images/Coray.png) no-repeat 0 -480px;
+	cursor: pointer;
+}
+#slide-index .xia .pcr:hover {
+	background: url(../images/Coray.png) no-repeat 0 -400px;
+}
+#slide-index .xia .pcl {
+	width: 50px;
+	height: 80px;
+	background: url(../images/Coray.png) no-repeat 0 -320px;
+	cursor: pointer;
+	margin: 110px 0 0;
+}
+#slide-index .xia .pcl:hover {
+	width: 50px;
+	height: 80px;
+	background: url(../images/Coray.png) no-repeat 0 -1920px;
+	cursor: pointer;
+	margin: 110px 0 0;
+}
+#slide-index .Qt {
+	position: absolute;
+	left: 120px;
+	bottom: 0;
+	height: 60px;
+	color: #FFF;
+	font-size: 14px;
+}
+#slide-index .Qt a {
+	color: #FFF;
+	padding: 0 20px 0 0;
+	line-height: 23px;
+}
+#bi_0 {
+	background: #5cb1e6;
+}
+#bi_1 {
+	background: #60a84e;
+}
+#bi_2 {
+	background: #1362a1;
+}
+.product {
+	padding-top: 20px;
+}
+.product ul li {
+	width: 300px;
+	float: left;
+	height: 108px;
+	overflow: hidden;
+	margin: 0 40px 12px 0;
+}
+.product ul li a,
+.product ul li a:hover {
+	background: url(../images/Ray.png) no-repeat;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.product ul li.cp1 a {
+	background-position: -300px 0;
+}
+.product ul li.cp1 a:hover {
+	background-position: 0 0;
+}
+.product ul li.cp2 a {
+	background-position: -300px -108px;
+}
+.product ul li.cp2 a:hover {
+	background-position: 0 -108px;
+}
+.product ul li.cp3 a {
+	background-position: -300px -216px;
+}
+.product ul li.cp3 a:hover {
+	background-position: 0 -216px;
+}
+.product ul li.cp4 a {
+	background-position: -300px -324px;
+}
+.product ul li.cp4 a:hover {
+	background-position: 0 -324px;
+}
+.product ul li.cp5 a {
+	background-position: -300px -432px;
+}
+.product ul li.cp5 a:hover {
+	background-position: 0 -432px;
+}
+.product ul li.cp6 a {
+	background-position: -300px -540px;
+}
+.product ul li.cp6 a:hover {
+	background-position: 0 -540px;
+}
+.product ul li.cp3,
+.product ul li.cp6 {
+	margin-right: 0;
+}
+.bt {
+	border-bottom: 1px solid #d0d7dd;
+	position: relative;
+	font-size: 18px;
+	height: 42px;
+	color: #333;
+}
+.bt1 span {
+	position: relative;
+	bottom: 0;
+	border-bottom: 4px #349ae8 solid;
+	line-height: 30px;
+	height: 30px;
+	margin: 9px 0 0;
+	float: left;
+	font-weight: normal;
+}
+.bt2 {
+	width: 280px;
+	margin: 0 10px;
+}
+.bt2 span {
+	position: relative;
+	bottom: 0;
+	line-height: 30px;
+	height: 30px;
+	margin: 9px 0 0;
+	float: left;
+	font-weight: normal;
+}
+.more {
+	float: right;
+	background: url(../images/Coray.png) no-repeat;
+	overflow: hidden;
+	display: inline-block;
+}
+.mo01 {
+	background-position: -63px -635px;
+	width: 37px;
+	height: 15px;
+	margin-top: 14px;
+}
+.mo01:hover {
+	background-position: -63px -620px;
+}
+.mo02 {
+	background-position: 0 -575px;
+	width: 93px;
+	height: 15px;
+	margin-top: 13px;
+}
+.mo02:hover {
+	background-position: 0 -560px;
+}
+.mo03 {
+	background-position: 0 -605px;
+	width: 68px;
+	height: 15px;
+}
+.mo03:hover {
+	background-position: 0 -590px;
+}
+.video {
+	border: 1px solid #d0d7dd;
+	background: url(../images/video.png) no-repeat 0 bottom;
+	padding-bottom: 18px;
+	width: 298px;
+	height: 210px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+}
+.video p {
+	width: 63px;
+	height: 63px;
+	background: url(../images/Coray.png) no-repeat 0 -792px;
+	position: absolute;
+	left: 119px;
+	top: 84px;
+}
+.news {} .news li {
+	width: 100%;
+	float: left;
+	font-size: 15px;
+}
+.news li a {
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 4px 0 3px;
+	color: #333;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+.news li a:hover,
+.dongtai a:hover {
+	color: #7CC23E;
+	text-decoration: underline;
+}
+.news li .time {
+	background: url(../images/time.png) no-repeat 0 0;
+	font-size: 12px;
+	padding-left: 15px;
+	font-family: "宋体";
+	float: left;
+	line-height: 10px;
+	color: #999;
+}
+.dongtai {
+	padding: 4px 10px;
+	width: 280px;
+}
+.dongtai li span {
+	float: right;
+	font: 12px/25px "宋体";
+	color: #999;
+}
+.dongtai a {
+	width: 183px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+	display: block;
+}
+.jixing {
+	width: 280px;
+	padding: 0 10px;
+}
+.jixing dt {
+	padding: 12px 0;
+	height: 11px;
+	line-height: 11px;
+	color: #666;
+}
+/*.jixing dd select {color: #333;font-family: "微软雅黑";height:33px;font-size:12px;margin-right:5px;float:left; z-index:1;}
+.jixing dd option {float:left;height:33px;line-height:33px;}*/
+
+.jixing select:hover {
+	border: 1px solid #7cc23e;
+}
+.jx {
+	background: url(../images/Coray.png) no-repeat -50px -432px;
+	width: 50px;
+	height: 32px;
+	text-align: center;
+	border: none;
+	float: left;
+}
+.jx:hover {
+	background-position: -50px -400px;
+}
+.jx span {
+	display: none;
+}
+.hezuo {
+	border-top: 1px solid #d0d7dd;
+	position: relative;
+}
+.hezuo h2 {
+	font: 19px/19px "微软雅黑";
+}
+.hezuo h2 span {
+	width: 300px;
+	float: left;
+}
+.rollBox {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	height: 74px;
+}
+.rollBox .L {
+	height: 40px;
+	width: 40px;
+	background: url(../images/Coray.png) no-repeat 0 -712px;
+	overflow: hidden;
+	float: left;
+	display: inline;
+	margin: 15px 0 0 10px;
+	cursor: pointer;
+	position: absolute;
+	z-index: 9;
+	display: block;
+}
+.rollBox .L.hov1 {
+	background-position: 0 -752px;
+}
+.rollBox .R {
+	height: 40px;
+	width: 40px;
+	background: url(../images/Coray.png) no-repeat -60px -712px;
+	overflow: hidden;
+	right: 0;
+	display: inline;
+	margin: 15px 10px 0 0;
+	cursor: pointer;
+	position: absolute;
+	z-index: 9;
+	display: block;
+}
+.rollBox .R.hov2 {
+	background-position: -60px -752px;
+}
+.rollBox .Cont {
+	width: 980px;
+	overflow: hidden;
+	float: left;
+	position: absolute;
+	z-index: 1;
+}
+.rollBox .ScrCont {
+	width: 10000000px;
+}
+.rollBox .Cont li {
+	width: 162px;
+	float: left;
+	margin-right: 10px;
+	position: relative;
+	height: 74px;
+}
+.rollBox .Cont li a {
+	padding-top: 4px;
+	float: left;
+	height: 71px;
+}
+.rollBox .Cont li a:hover {
+	padding-top: 0px;
+	border-bottom: 3px solid #7cc23e;
+}
+.rollBox #List1,
+.rollBox #List2 {
+	float: left;
+}
+.select {
+	border: 1px solid #d0d7dd;
+	line-height: 22px;
+	color: #666;
+	padding: 6px 5px;
+	font-size: 13px;
+	*margin-left: -1px;
+	*margin-right: -1px;
+	*margin-top: -3px;
+	_margin-top: -1px;
+}
+.select_border {
+	*background: #fff;
+	*border: 1px solid #d0d7dd;
+	*padding: 6px 4px;
+	float: left;
+	*margin-right: 3px;
+}
+.container {
+	*border: 0;
+	*position: relative;
+	*height: 18px;
+	*overflow: hidden;
+	*background: #fff;
+}

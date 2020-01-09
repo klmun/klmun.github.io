@@ -1,0 +1,110 @@
+﻿
+.meun li a {padding:0 18px;}
+.bigimg {position:relative;height:300px;}
+.bigimg dl {position:absolute;width:350px;height:105px;top:135px;right:50px;font-family:Arial;font-size:16px; white-space:nowrap;}
+.bigimg dl dt {text-align:right;color:#616161;height:36px;width:100%;float:left;}
+.bigimg dl dd {width:250px;height:70px;background:url(../images/Coray.png) no-repeat 18px -1155px #298dda;float:right;line-height:65px;font-size:34px;letter-spacing:5px; cursor:pointer;}
+.bigimg dl dd a {color:#FFF;padding-left:78px;font-weight:bold;float:left; font-family:"微软雅黑"; width:172px;}
+.bigimg dl dd a:hover,.bigimg dl dd.B1 a:hover{ color:#FFF;}
+.bigimg dl dd.hov{background-position:18px -1773px; background-color:#7cc23e;}
+.bigimg dl dd#B1 {background-position:185px -1225px;}
+.bigimg dl dd#B1 a {padding-left:20px; display:block; width:230px;}
+.bigimg dl dd#B1.hov {background-position:185px -1703px; background-color:#7cc23e;}
+.meu {background:url(../images/meu.png) no-repeat 0 0;height:55px; overflow:hidden;}
+.meu.hover {background-position:0 -55px;}
+.meu span {width:490px;overflow:hidden;height:55px;line-height:48px;text-indent:230px;float:left;font-size:16px;font-weight:bold;}
+.meu span.FFF a {color:#FFF;}
+.meu a {color:#666;width:100%;height:48px;float:left;}
+/*更新日志 年轮模式*/
+.nianlun {font-size:15px;color:#666; padding-bottom:20px}
+.nianlun dl {float:left;width:100%;}
+.text_r{background:url(../images/text_rbg.png) left bottom no-repeat; width:496px; height:35px; margin-left:251px; display:inline;}
+.text_l{background:url(../images/text_lbg.png) left bottom no-repeat; width:496px; height:35px; margin-left:251px; display:inline;}
+.text_new{ position:absolute; right:-71px; top:26px;}
+.nianlun dl.r dd {padding-bottom:25px;padding-top:30px;border-right: 2px solid #D0D7DD; position:relative; min-height:115px; height:auto !important;height:115px; overflow:visible}
+.nianlun dl.l dd {padding-bottom:25px;padding-top:30px;border-left: 2px solid #D0D7DD; position:relative; min-height:115px; height:auto !important;height:115px; overflow:visible}
+.nianlun dl span {font-size:20px;color:#333;}
+.nianlun dl span {color:#7cc23e;}
+.nianlun dd {line-height:24px;}
+.nianlun dt {position:relative;}
+.nianlun i {width:16px;height:16px;background:url(../images/nianlun_i.png);position:absolute;top:10px; z-index:10}
+.nianlun li {background:url(../images/nianlun_d.png) no-repeat;}
+.nianlun .r li {background-position:100% 10px;padding-right:14px;}
+.nianlun .l li {background-position:0 10px;padding-left:14px;}
+.nianlun .r dt {width:130px;height:50px;background:url(../images/Coray.png) no-repeat -80px -1030px;padding-left:26px;line-height:24px;color:#666;margin:70px 50px 50px 0; display:inline;}
+.nianlun .l dt {width:130px;height:50px;background:url(../images/Coray.png) no-repeat 135px -1096px;padding-right:26px;line-height:24px;color:#666;margin:40px 0 50px 48px;text-align:right; display:inline;}
+.nianlun .r dd {width:470px;padding:20px 40px 50px 235px; }
+.nianlun .l dd {width:670px;padding:20px 0 50px 57px;}
+.nianlun .r i { left:-36px;}
+.nianlun .l i {right:-56px;}
+.nianlun .new dt {background-position:-80px -1096px;margin-top:70px;}
+.nianlun .new i {display:none;}
+/*功能介绍页面*/
+.gongneng dl {border-bottom:1px solid #d0d7dd;float:left;width:100%;}
+.gongneng dl dt {width:610px;color:#298dda;font-size:30px;padding:100px 0 10px;}
+.gongneng dl dd {width:610px;color:#666;font-size:16px;line-height:30px;}
+.to {width:279px;height:82px;font-size:30px;}
+.to span {padding:34px 0 0;text-indent:123px;float:left;color:#FFF;display:block;background:url(../images/log.png) no-repeat 0 0;height:48px;width:100%;}
+.to a:hover {background-position:0 -82px;display:block;}
+/*年份*/
+.update_img{background:url(../images/log.png) no-repeat; width:259px; height:144px; float:left; position:relative;}
+.year { background: url(../images/log.png) no-repeat scroll 0 0 transparent;float: left; height: 90px; position: relative; width: 280px;}
+.yearl { width: 240px;}
+.rl { background-position: -215px -172px;margin-left: 707px;display:inline;}
+.lr { background-position: -13px -172px; margin-left: 21px;margin-right:600px; display:inline;}
+.rl2 {background-position: -237px -172px; margin-left: 739px;display:inline;}
+.update_img span, .year span { color: #FFFFFF; font-size: 26px; font-weight: bolder; position: absolute; text-align: center;}
+.update_img span.l1, .year span.l1 { left: 57px; top: 35px;}
+.update_img span.l2 { left: 218px; top: 100px;}
+.update_img span.r1 {left: 127px; top: 35px;}
+.year span.r1 { left: 103px;top: 35px;}
+.update_img span.r2 {left: 15px; top: 100px;}
+.sl { height: 50px; margin-left: 225px; width: 51px;background: url("../images/log.png") no-repeat scroll -218px -264px transparent; display:inline;}
+.sl span {color: #FFFFFF; font-weight: bolder;text-align:center;font-size:36px;height:47px;line-height:47px;margin-top:-8px;*margin-top:-5px;display:block;}
+.sl a:hover {background-position: -218px -414px;display: block;}
+.slr {margin-left: 718px; display:inline;}
+
+.product_code_con {
+    display:block;
+    background:url("../images/qc.png") center center no-repeat;
+    top: 165px;
+    left: 590px;
+    position:absolute;
+    height:80px;
+    width:80px;
+    color:#fff;
+    z-index:99;
+}
+
+.product_code_con:hover {
+    background-image:url("../images/qc1.png");
+}
+
+.product_code_con:hover>span {
+    display:inline-block;
+}
+
+.product_code {
+    display:none;
+    background:url("../images/code_bg.png") center no-repeat;
+    position:absolute;
+    top: 58px;
+    left: -275px;
+    height:410px;
+    width:354px;
+    text-align:center;
+}
+
+.product_code img {
+    display:inline-block;
+    width:200px;
+    height:200px;
+    margin-top:85px;
+}
+
+.product_code h3 {
+    display:block;
+    margin-top:40px;
+    font-size:16px;
+    color:#000;
+}
