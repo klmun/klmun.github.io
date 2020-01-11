@@ -1,0 +1,9 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>刷机大师官网</title><link href=./static/css/index.css rel=stylesheet type=text/css><link href=./static/css/Coray.css rel=stylesheet type=text/css><link href=./static/css/product.css rel=stylesheet type=text/css><script type=text/javascript src=./static/js/jquery.js></script><link href=/static/css/app.c63cdc27552a4ea1b17200681bb71a4c.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript>var $qr = $('#fix_twice');
+        var footOffset = $('.foot').offset();
+        if ($qr && footOffset) {
+            var diffTop = footOffset.top - $qr.height() - 660;
+            $(window).bind('scroll', function () {
+                if ($(this).scrollTop() > diffTop) return $qr.addClass('fix_twice_stop');
+                $qr.removeClass('fix_twice_stop');
+            });
+        }</script><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.c1427980b3af650ac7fe.js></script><script type=text/javascript src=/static/js/app.382ec84eacaebc049132.js></script></body></html>
